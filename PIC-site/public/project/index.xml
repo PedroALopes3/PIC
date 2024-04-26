@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Our Project on Vital Monitorization Bracelet</title>
+    <link>http://localhost:1313/ist1103254/project/</link>
+    <description>Recent content in Our Project on Vital Monitorization Bracelet</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <atom:link href="http://localhost:1313/ist1103254/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Low Level Prototype of the App</title>
+      <link>http://localhost:1313/ist1103254/project/low-level-prototype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ist1103254/project/low-level-prototype/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test of the Bettle BLE processor</title>
+      <link>http://localhost:1313/ist1103254/project/test-betle-ble/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ist1103254/project/test-betle-ble/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Test of the heartbeat sensor</title>
+      <link>http://localhost:1313/ist1103254/project/test-vital-sensor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ist1103254/project/test-vital-sensor/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,88 @@
+############# English navigation ##############
+
+# main menu
+[[main]]
+name = "Home"
+url = ""
+weight = 1
+
+#[[main]] # <<<<<<<<<<<<<<<<< Para Acrescentar
+#name = "Project"
+#url = "about/"
+#weight = 2
+
+[[main]]
+name = "Portfolio"
+url = "project/"
+weight = 2
+
+[[main]]
+name = "Blog"
+url = "blog/"
+weight = 4
+
+#[[main]] # <<<<<<<<<<<<<<<<< Para Acrescentar
+#name = "Contact"
+#url = "contact/"
+#weight = 5
+
+[[main]]
+weight = 3
+name = "Project"
+hasChildren = true
+
+  [[main]]
+  parent = "Project"
+  name = "Prototype"
+  url = "prototype/"
+  weight = 1
+
+  [[main]]
+  parent = "Project"
+  name = "Algorithm"
+  url = "algorithm/"
+  weight = 2
+
+  [[main]]
+  parent = "Project"
+  name = "App"
+  url = "app/"
+  weight = 3
+  
+  [[main]]
+  parent = "Project"
+  name = "Interviews"
+  url = "interviews/"
+  weight = 4
+
+
+# footer menu
+#[[footer]] # <<<<<<<<<<<<<<<<< Para Acrescentar
+#name = "About"
+#url = "about/"
+#weight = 2
+
+#[[footer]] # <<<<<<<<<<<<<<<<< Para Acrescentar
+#name = "Project"
+#url = "project/"
+#weight = 3
+
+#[[footer]]
+#name = "Service"
+#url = "service/"
+#weight = 4
+
+#[[footer]]
+#name = "Pricing"
+#url = "pricing/"
+#weight = 5
+
+#[[footer]]
+#name = "FAQ"
+#url = "faq/"
+#weight = 6
+
+#[[footer]]
+#name = "Contact"
+#url = "contact/"
+#weight = 7
