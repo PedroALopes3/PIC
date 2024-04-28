@@ -3,9 +3,10 @@ title: "I2c"
 date: 2024-03-15T12:22:40+06:00
 image: images/blog/i2c.jpg
 author: Tiago Dias
+editor: Miguel Pereira
 bg_image: "images/feature-bg.jpg"
 categories: ["Protótipo"]
-tags: ["Sensores"]
+tags: ["Sensores", "Pesquisa"]
 description: "This is meta description"
 draft: false
 type: "post"

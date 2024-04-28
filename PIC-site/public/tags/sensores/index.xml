@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sensores on Vital Monitorization Bracelet</title>
-    <link>http://localhost:1313/ist1103254/tags/sensores/</link>
+    <link>http://web.tecnico.ulisboa.pt/ist1103254/tags/sensores/</link>
     <description>Recent content in Sensores on Vital Monitorization Bracelet</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Tue, 23 Apr 2024 12:22:40 +0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/ist1103254/tags/sensores/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://web.tecnico.ulisboa.pt/ist1103254/tags/sensores/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Processadores e sensores</title>
-      <link>http://localhost:1313/ist1103254/blog/processador_updated/</link>
+      <link>http://web.tecnico.ulisboa.pt/ist1103254/blog/processador_updated/</link>
       <pubDate>Tue, 23 Apr 2024 12:22:40 +0600</pubDate>
-      <guid>http://localhost:1313/ist1103254/blog/processador_updated/</guid>
+      <guid>http://web.tecnico.ulisboa.pt/ist1103254/blog/processador_updated/</guid>
       <description>Processadores e Sensores Nas primeiras semanas de projeto decidimos que o processador (lilypad arduino), que o grupo pretendia usar, não vai ser o utilizado uma vez que foi descontinuado, por isso para combater este impedimento, foi escolhido outro processador (beetle BLE) que consideramos ser o ideal.</description>
     </item>
     <item>
       <title>I2c</title>
-      <link>http://localhost:1313/ist1103254/blog/i2c/</link>
+      <link>http://web.tecnico.ulisboa.pt/ist1103254/blog/i2c/</link>
       <pubDate>Fri, 15 Mar 2024 12:22:40 +0600</pubDate>
-      <guid>http://localhost:1313/ist1103254/blog/i2c/</guid>
+      <guid>http://web.tecnico.ulisboa.pt/ist1103254/blog/i2c/</guid>
       <description>I2C O que é? É um protocolo de comunicação, neste caso vai ser usado entre o arduino e os diversos sensores utilizando apenas 2 cabos.</description>
     </item>
   </channel>

@@ -45,50 +45,49 @@ featured_service:
 
 ############################# Service ###############################
 service:
-  enable : true
-  title : "Our Services"
-  description : "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, <br> there live the
-          blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics"
+  enable : false
+  title : "Prototype components"
+  description : "This is the list of elements that build our project, for more detailed information consult the blog."
   service_item:
     # service item loop
-    - icon : fas fa-bullseye #https://fontawesome.com/v5.15/icons
-      name: Branding
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
-
-    # service item loop
     - icon : fas fa-layer-group #https://fontawesome.com/v5.15/icons
-      name: Web Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+      name: Server
+      content: "Used to store the data and compute the algorithms - Firebase"
 
     # service item loop
-    - icon : fas fa-image #https://fontawesome.com/v5.15/icons
-      name: App Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-wifi #https://fontawesome.com/v5.15/icons
+      name: Local Router
+      content: "Relay between the bracelet and the server, makes some compute - Raspberry Pie 5"
 
     # service item loop
-    - icon : fas fa-bug #https://fontawesome.com/v5.15/icons
-      name: Start Up
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-ring #https://fontawesome.com/v5.15/icons
+      name: Bracelet
+      content: "Used to secure the prototype to the arm of the user."
 
     # service item loop
-    - icon : fas fa-headphones-alt #https://fontawesome.com/v5.15/icons
-      name: Logo Design
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-microchip #https://fontawesome.com/v5.15/icons
+      name: Processor
+      content: "Controles the sensors and sends the data via Bluetooth tho the local router - Beetle BLE"
 
     # service item loop
-    - icon : fas fa-leaf #https://fontawesome.com/v5.15/icons
-      name: Development
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-battery-three-quarters #https://fontawesome.com/v5.15/icons
+      name: Battery
+      content: "Used to power the prototype - <br> Li-Po 500mAh"
 
     # service item loop
-    - icon : fas fa-globe-asia #https://fontawesome.com/v5.15/icons
-      name: Brand Identity
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-tachometer-alt #https://fontawesome.com/v5.15/icons
+      name: Gyroscope and Acelerometer
+      content: "Collect data of the user moviments to identify falls"
 
     # service item loop
-    - icon : fas fa-feather #https://fontawesome.com/v5.15/icons
-      name: Brand Identity
-      content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+    - icon : fas fa-heartbeat #https://fontawesome.com/v5.15/icons
+      name: Vitals sensor
+      content: "Composed of a hearthbeat sensor and an oximeter collects the vitals of the user."
+
+    # service item loop
+    - icon : fas fa-charging-station #https://fontawesome.com/v5.15/icons
+      name: Battery Charger
+      content: "Alows to rechage the prototype"
 
 ############################# call to action #################################
 cta:

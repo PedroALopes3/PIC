@@ -57,20 +57,20 @@ hasChildren = true
 
 
 # footer menu
-#[[footer]] # <<<<<<<<<<<<<<<<< Para Acrescentar
-#name = "About"
-#url = "about/"
-#weight = 2
+[[footer]] # <<<<<<<<<<<<<<<<< Para Acrescentar
+name = "Home"
+url = ""
+weight = 1
 
-#[[footer]] # <<<<<<<<<<<<<<<<< Para Acrescentar
-#name = "Project"
-#url = "project/"
-#weight = 3
+[[footer]] # <<<<<<<<<<<<<<<<< Para Acrescentar
+name = "Portfolio"
+url = "project/"
+weight = 2
 
-#[[footer]]
-#name = "Service"
-#url = "service/"
-#weight = 4
+[[footer]]
+name = "Blog"
+url = "blog/"
+weight = 3
 
 #[[footer]]
 #name = "Pricing"

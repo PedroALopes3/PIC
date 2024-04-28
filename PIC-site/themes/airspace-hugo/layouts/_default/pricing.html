@@ -13,7 +13,7 @@
         <div class="pricing-item text-center">
           <div class="price-title">
             {{ with .name }}<h3>{{ . | markdownify }}</h3>{{ end }}
-            {{ with .price }}<strong class="value">{{ . }}</strong>{{ end }}
+            {{ with .image }}<img src="{{ . | relURL}}" alt="img"> {{ end }}
             {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
           </div>
           <ul>
@@ -21,7 +21,7 @@
             <li>{{ . | markdownify }}</li>
             {{ end }}
           </ul>
-          <a class="btn btn-small" href="{{ .link | safeURL }}">{{ i18n "buy_now" }}</a>
+          <!--a class="btn btn-small" href="{{ .link | safeURL }}">{{ i18n "buy_now" }}</a-->
         </div>
       </div>
       {{ end }}

@@ -2,7 +2,8 @@
 title: "Escolha do processador [Not updated]"
 date: 2024-03-08T12:22:40+06:00
 image: images/blog/lilypad.jpg
-author: Bernardo Santos, Miguel Pereira
+author: Bernardo Santos
+editor: Miguel Pereira
 bg_image: "images/feature-bg.jpg"
 categories: ["Protótipo"]
 tags: ["Processador"]

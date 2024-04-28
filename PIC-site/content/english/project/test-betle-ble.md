@@ -4,7 +4,7 @@ description: ""
 draft: false
 image : "images/portfolio/test_bettle-ble.jpeg"
 bg_image: "images/feature-bg.jpg"
-category: "App"
+category: "Prototype"
 information:
   - label : "Done by"
     info : "Bernardo Santos"

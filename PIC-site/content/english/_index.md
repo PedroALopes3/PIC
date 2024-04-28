@@ -27,9 +27,9 @@ about:
 ######################### Portfolio ###############################
 portfolio:
   enable: true
-  bg_image: "images/bracelet-cartoon.jpg"
-  title: "Our product"
-  content: " Our product tries to help the families of these elderly people and competent entities to monitor these people more effectively. Through the technology incorporated into the bracelet, family members and entities competent professionals will have real-time access to data such as heart rate, levels of physical activity and even whether the elderly person is at home or not. Furthermore, the bracelet has an intelligent fall detection system, In these cases, the bracelet automatically sends alerts to whoever is monitoring, notifying about the situation and providing intervention immediate. The design of the bracelet was carefully thought out to meet the needs of the elderly, prioritizing comfort, ease of use and aesthetics discreet. With light and resistant materials, the bracelet is adaptable for use daily, allowing the elderly to maintain their autonomy without feeling any discomfort. When addressing the challenge of monitoring elderly people who live alone and/or isolated, our product aims to provide peace of mind to family members and caregivers, offering an effective and humanized technological solution for the monitoring these people. With the increase in the elderly population in Portugal, we believe that this innovation can play a role signiﬁcant in improving the quality of life and safety of elderly people who find themselves in this situation.
+  bg_image: "images/sistem_diagram2.png"
+  title: "Our Objective"
+  content: " Our project aims to ensure the safety of elders who live in isolation. We plan to acomplish this by designing a sistem capable of notifying a family member or an organization that can respond in case of an emmergency. We want to create a bracelet that recgnise danger and sends a notification to an application allowing to a faster response.
   "
   button:
     enable: true
@@ -112,7 +112,7 @@ team:
     - image         : images/team/pedro.png
       name          : Pedro Lopes
       designation   : Student
-      description   : Data Treatment
+      description   : Data Scientist
       facebookURL   : https://www.facebook.com/
       twitterURL    : https://twitter.com/
       gplusURL      : https://plus.google.com/
@@ -121,7 +121,7 @@ team:
     - image         : images/team/vasco.png
       name          : Vasco Martins
       designation   : Student
-      description   : Hardware Setup
+      description   : Hardware Tecnician
       facebookURL   : https://www.facebook.com/
       twitterURL    : https://twitter.com/
       gplusURL      : https://plus.google.com/
@@ -129,8 +129,8 @@ team:
   ##########################################################################################################
     - image         : images/team/tiago.png
       name          : Tiago Dias
-      designation   : System Modulation
-      description   : ist1103238
+      designation   : Student
+      description   : System Modulator
       facebookURL   : https://www.facebook.com/
       twitterURL    : https://twitter.com/
       gplusURL      : https://plus.google.com/
@@ -139,7 +139,7 @@ team:
     - image         : images/team/miguel.png
       name          : Miguel Pereira
       designation   : Student
-      description   : Comunication Network
+      description   : Network Architect
       facebookURL   : https://www.facebook.com/
       twitterURL    : https://twitter.com/
       gplusURL      : https://plus.google.com/
@@ -148,7 +148,7 @@ team:
     - image         : images/team/antonio.png
       name          : António Quendera
       designation   : Student
-      description   : App Interface
+      description   : Front-end Developer
       facebookURL   : https://www.facebook.com/
       twitterURL    : https://twitter.com/
       gplusURL      : https://plus.google.com/
@@ -157,7 +157,7 @@ team:
     - image         : images/team/bernardo.png
       name          : Bernardo Santos
       designation   : Student
-      description   : Eletronics
+      description   : Eletronics Engineer
       facebookURL   : https://www.facebook.com/
       twitterURL    : https://twitter.com/
       gplusURL      : https://plus.google.com/
