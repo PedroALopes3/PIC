@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Vital Monitorization Bracelet</title>
-    <link>http://web.tecnico.ulisboa.pt/ist1103254/tags/</link>
+    <link>http://localhost:1313/ist1103254/tags/</link>
     <description>Recent content in Tags on Vital Monitorization Bracelet</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 28 Apr 2024 12:22:40 +0600</lastBuildDate>
-    <atom:link href="http://web.tecnico.ulisboa.pt/ist1103254/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ist1103254/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Conclusões</title>
-      <link>http://web.tecnico.ulisboa.pt/ist1103254/tags/conclus%C3%B5es/</link>
+      <link>http://localhost:1313/ist1103254/tags/conclus%C3%B5es/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://web.tecnico.ulisboa.pt/ist1103254/tags/conclus%C3%B5es/</guid>
+      <guid>http://localhost:1313/ist1103254/tags/conclus%C3%B5es/</guid>
       <description></description>
     </item>
     <item>
       <title>Processador</title>
-      <link>http://web.tecnico.ulisboa.pt/ist1103254/tags/processador/</link>
+      <link>http://localhost:1313/ist1103254/tags/processador/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://web.tecnico.ulisboa.pt/ist1103254/tags/processador/</guid>
+      <guid>http://localhost:1313/ist1103254/tags/processador/</guid>
       <description></description>
     </item>
     <item>
       <title>Sensores</title>
-      <link>http://web.tecnico.ulisboa.pt/ist1103254/tags/sensores/</link>
+      <link>http://localhost:1313/ist1103254/tags/sensores/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://web.tecnico.ulisboa.pt/ist1103254/tags/sensores/</guid>
+      <guid>http://localhost:1313/ist1103254/tags/sensores/</guid>
       <description></description>
     </item>
     <item>
       <title>Pesquisa</title>
-      <link>http://web.tecnico.ulisboa.pt/ist1103254/tags/pesquisa/</link>
+      <link>http://localhost:1313/ist1103254/tags/pesquisa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://web.tecnico.ulisboa.pt/ist1103254/tags/pesquisa/</guid>
+      <guid>http://localhost:1313/ist1103254/tags/pesquisa/</guid>
       <description></description>
     </item>
     <item>
       <title>Transcrito</title>
-      <link>http://web.tecnico.ulisboa.pt/ist1103254/tags/transcrito/</link>
+      <link>http://localhost:1313/ist1103254/tags/transcrito/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://web.tecnico.ulisboa.pt/ist1103254/tags/transcrito/</guid>
+      <guid>http://localhost:1313/ist1103254/tags/transcrito/</guid>
       <description></description>
     </item>
     <item>
       <title>Guião</title>
-      <link>http://web.tecnico.ulisboa.pt/ist1103254/tags/gui%C3%A3o/</link>
+      <link>http://localhost:1313/ist1103254/tags/gui%C3%A3o/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://web.tecnico.ulisboa.pt/ist1103254/tags/gui%C3%A3o/</guid>
+      <guid>http://localhost:1313/ist1103254/tags/gui%C3%A3o/</guid>
       <description></description>
     </item>
   </channel>

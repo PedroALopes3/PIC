@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Vital Monitorization Bracelet</title>
-    <link>http://web.tecnico.ulisboa.pt/ist1103254/categories/</link>
+    <link>http://localhost:1313/ist1103254/categories/</link>
     <description>Recent content in Categories on Vital Monitorization Bracelet</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     <lastBuildDate>Sun, 28 Apr 2024 12:22:40 +0600</lastBuildDate>
-    <atom:link href="http://web.tecnico.ulisboa.pt/ist1103254/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ist1103254/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Entrevistas</title>
-      <link>http://web.tecnico.ulisboa.pt/ist1103254/categories/entrevistas/</link>
+      <link>http://localhost:1313/ist1103254/categories/entrevistas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://web.tecnico.ulisboa.pt/ist1103254/categories/entrevistas/</guid>
+      <guid>http://localhost:1313/ist1103254/categories/entrevistas/</guid>
       <description></description>
     </item>
     <item>
       <title>Protótipo</title>
-      <link>http://web.tecnico.ulisboa.pt/ist1103254/categories/prot%C3%B3tipo/</link>
+      <link>http://localhost:1313/ist1103254/categories/prot%C3%B3tipo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://web.tecnico.ulisboa.pt/ist1103254/categories/prot%C3%B3tipo/</guid>
+      <guid>http://localhost:1313/ist1103254/categories/prot%C3%B3tipo/</guid>
       <description></description>
     </item>
   </channel>

@@ -1,5 +1,5 @@
 ---
-title: "Skematic of the Prototype"
+title: "Schematic of the Prototype"
 description: ""
 draft: false
 image : "images/portfolio/prototipo_skematic.jpeg"
