@@ -148,7 +148,7 @@ void loop() {
         }*/
       }
 
-      data = fall + "," + String(beatsPerMinute);
+      //data = fall + "," + String(beatsPerMinute);
 
       if (digitalRead(BUTTON1_PIN) == LOW){
         data = data + "," + "1";
