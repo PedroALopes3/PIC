@@ -14,6 +14,14 @@ banner:
     enable2: true
     label2: "Mid-Term Report"
     link2: "project/Vital Monitorization Sensor - Entrega Intermédia (1).pdf"
+  button3:
+    enable3: true
+    label3: "Pitch Deck"
+    link3: "project/Vital Monitorization Sensor - Entrega Intermédia (1).pdf"
+  button4:
+    enable4: true
+    label4: "Video"
+    link4: "project/Vital Monitorization Sensor - Entrega Intermédia (1).pdf"
 
 ############################# About #################################
 about:

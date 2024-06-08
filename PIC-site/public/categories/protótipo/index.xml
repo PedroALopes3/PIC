@@ -4,10 +4,17 @@
     <title>Protótipo on Vital Monitorization Bracelet</title>
     <link>http://localhost:1313/ist1103254/categories/prot%C3%B3tipo/</link>
     <description>Recent content in Protótipo on Vital Monitorization Bracelet</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 23 Apr 2024 12:22:40 +0600</lastBuildDate>
+    <lastBuildDate>Fri, 07 Jun 2024 12:00:40 +0600</lastBuildDate>
     <atom:link href="http://localhost:1313/ist1103254/categories/prot%C3%B3tipo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Produto Ideal</title>
+      <link>http://localhost:1313/ist1103254/blog/produto_ideal/</link>
+      <pubDate>Fri, 07 Jun 2024 12:00:40 +0600</pubDate>
+      <guid>http://localhost:1313/ist1103254/blog/produto_ideal/</guid>
+      <description>Produto Ideal No âmbito do Projeto Integrador de 1º Ciclo, do curso de Engenharia Eletrotécnica e de Computadores do Instituto Superior Técnico, seria suposto desenvolver um produto para a resolução de um problema à escolha de cada grupo.</description>
+    </item>
     <item>
       <title>Processadores e sensores</title>
       <link>http://localhost:1313/ist1103254/blog/processador_updated/</link>

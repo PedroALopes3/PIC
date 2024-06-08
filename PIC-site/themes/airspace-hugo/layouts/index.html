@@ -20,6 +20,16 @@
           <a href="{{ .link2 | relLangURL }}" class="btn btn-main animated fadeInUp">{{ .label2 }}</a>
           {{ end }}
           {{ end }}
+          {{ with .button3 }}
+          {{ if .enable3 }}
+          <a href="{{ .link3 | relLangURL }}" class="btn btn-main animated fadeInUp">{{ .label3 }}</a>
+          {{ end }}
+          {{ end }}
+          {{ with .button4 }}
+          {{ if .enable4 }}
+          <a href="{{ .link4 | relLangURL }}" class="btn btn-main animated fadeInUp">{{ .label4 }}</a>
+          {{ end }}
+          {{ end }}
         </div>
       </div>
     </div>

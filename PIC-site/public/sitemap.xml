@@ -3,10 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/ist1103254/</loc>
-    <lastmod>2024-04-28T12:22:40+06:00</lastmod>
+    <lastmod>2024-06-07T12:00:40+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ist1103254/categories/</loc>
-    <lastmod>2024-04-28T12:22:40+06:00</lastmod>
+    <lastmod>2024-06-07T12:00:40+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ist1103254/blog/</loc>
+    <lastmod>2024-06-07T12:00:40+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ist1103254/blog/produto_ideal/</loc>
+    <lastmod>2024-06-07T12:00:40+06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/ist1103254/categories/prot%C3%B3tipo/</loc>
+    <lastmod>2024-06-07T12:00:40+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ist1103254/tags/conclus%C3%B5es/</loc>
     <lastmod>2024-04-28T12:22:40+06:00</lastmod>
@@ -17,9 +26,6 @@
     <loc>http://localhost:1313/ist1103254/categories/entrevistas/</loc>
     <lastmod>2024-04-28T12:22:40+06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ist1103254/blog/</loc>
-    <lastmod>2024-04-28T12:22:40+06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/ist1103254/tags/</loc>
     <lastmod>2024-04-28T12:22:40+06:00</lastmod>
   </url><url>
@@ -27,9 +33,6 @@
     <lastmod>2024-04-23T12:22:40+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ist1103254/blog/processador_updated/</loc>
-    <lastmod>2024-04-23T12:22:40+06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/ist1103254/categories/prot%C3%B3tipo/</loc>
     <lastmod>2024-04-23T12:22:40+06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/ist1103254/tags/sensores/</loc>

@@ -5,11 +5,11 @@
 
 <head><script src="/ist1103254/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=ist1103254/livereload" data-no-instant defer></script>
 	<meta charset="utf-8">
-<title>Local Router</title>
+<title>Produto Ideal</title>
 
 
 
-<base href="http://localhost:1313/ist1103254/project/localrouter-img2/">
+<base href="http://localhost:1313/ist1103254/blog/produto_ideal/">
 
 
 
@@ -62,18 +62,18 @@
 
 
 
-<meta name="twitter:title" content="Local Router" />
+<meta name="twitter:title" content="Produto Ideal" />
 <meta name="twitter:description"
-  content="Raspberry Pi 5" />
+  content="This is meta description" />
 
 
 
-<meta property="og:title" content="Local Router" />
-<meta property="og:description" content="Raspberry Pi 5" />
+<meta property="og:title" content="Produto Ideal" />
+<meta property="og:description" content="This is meta description" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/ist1103254/project/localrouter-img2/" /><meta property="article:section" content="project" />
-
-
+<meta property="og:url" content="http://localhost:1313/ist1103254/blog/produto_ideal/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2024-06-07T12:00:40+06:00" />
+<meta property="article:modified_time" content="2024-06-07T12:00:40+06:00" />
 
 
 
@@ -355,8 +355,8 @@ if (!doNotTrack) {
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Local Router</h1>
-          <p></p>
+          <h1>Produto Ideal</h1>
+          <p>This is meta description</p>
         </div>
       </div>
     </div>
@@ -366,33 +366,150 @@ if (!doNotTrack) {
 
 
 
-<section class="portfolio-single-page section-sm">
+
+<section class="page-wrapper">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        
-        <img class="img-responsive w-100" src="/ist1103254/images/portfolio/localrouter_img4.jpeg" alt="">
-        
+        <div class="post post-single">
+          <h2 class="post-title">Produto Ideal</h2>
+          <div class="post-meta">
+            <ul>
+              <li><i class="ion-calendar"></i> June 7, 2024</li>
+              <li><i class="ion-android-people"></i>
+                Done by
+                <a class="text-primary" href="/ist1103254/author/vasco-marins">Vasco Marins</a>
+              </li>
+              <li><i class="ion-android-people"></i>
+                Edited by
+                <a class="text-primary" href="/ist1103254/author/miguel-pereira">Miguel Pereira</a>
+              </li>
+              <li><i class="ion-pricetags"></i>
+                
+              </li>
+            </ul>
+          </div>
+          <div class="post-thumb">
+            <img class="img-responsive" src="/ist1103254/images/blog/beetleBLE.jpg" alt="Produto Ideal">
+          </div>
+          <div class="post-content post-excerpt">
+            <h1 id="produto-ideal">Produto Ideal</h1>
+<p>No âmbito do Projeto Integrador de 1º Ciclo, do curso de Engenharia Eletrotécnica e de Computadores do Instituto Superior Técnico, seria suposto desenvolver um produto para a resolução de um problema à escolha de cada grupo. Idealmente
+esta solução seria um produto que pudesse ser comercializado, tendo este projeto uma componente bastante significativa de empreendedorismo.</p>
+<p>Através de vários seminários complementares ao projeto, foram expostos diversos temas relacionados ao mundo empresarial. No decorrer do semestre, foi desenvolvido um protótipo da solução final, que era o principal do objetivo deste trabalho. No entanto, ir-se-á de seguida idealizar como seria a versão comercial da solução.</p>
+<h2 id="contexto">Contexto</h2>
+<p>O projeto <em>visa resolver o problema de idosos que vivem sozinhos e estão expostos a incidentes</em>, como quedas ou ataques cardíacos, sem qualquer apoio nem ajuda.</p>
+<p>A *solução apresentada é uma pulseira que deteta quedas e alterações no batimento cardíaca e comunica remotamente para uma aplicação num telefone de um familiar.</p>
+<p>O projeto consiste em três componentes, a pulseira, a aplicação e um router local para envio de dados para o servidor.</p>
+<p>A pulseira foi dimensionada desde o zero e consiste num processador Arduino RP2040, que contém acelerómetro e giroscópio, um sensor de batimento cardíaco MAX30102, uma bateria de 500 mAh e um módulo de carregamento. A junção destes elementos resulta numa pulseira com 36 mm de altura, 42 mm de largura e 52 mm de comprimento, que é demasiado volumosa para uma pulseira comercial. Levanta-se, portanto, a questão de onde é que é possível cortar dimensões. Inicialmente é facilmente observável que as dimensões do arduino RP2040 (18 mm x 45 mm) não colaboram, tendo de se pensar numa solução mais reduzida e que a única aplicação seja este problema. Uma solução passaria por desenhar uma placa de origem e em massa, que teria um custo mais reduzido na ordem dos 5-10€. No entanto, aparece um problema relativamente ao acelerómetro e giroscópio que teria de se adquirir de outra forma. Uma opção seria o modelo Triple Axis Accelerometer &amp; Gyro - MPU-6050 que desempenha todas as funções desejadas, tem um tamanho reduzido (20 mm x 15 mm) e um preço de aproximadamente 6€. Uma componente facilmente otimizada seria a bateria que apresenta uma capacidade muito acima do necessário. Seria facilmente substituída por uma bateria de lítio de 200 mAh com dimensões reduzidas (30 mm x 20 mm). Quanto ao módulo de carregamento e ao sensor de batimentos cardíacos não seria necessário otimizar.</p>
+<p>O router local escolhido foi um Raspberry Pi 5 que tem funcionalidades muito mais avançadas do que as necessárias para este projeto. Idealmente apenas seria necessário um router com o mínimo de poder de processamento, uma vez que os dados com que lidamos são residuais a nível de armazenamento (por volta de kB). Uma alternativa válida seria desenhar uma PCB de origem, para efetuar este processamento de dados, comunicar por Bluetooth com a pulseira e por Wi-Fi com a base de dados do servidor. Não é fácil prever o custo desta solução, no entanto andará por volta de 10-30€.</p>
+<p>A aplicação apresentada com o protótipo é uma versão bastante próxima daquela que seria a versão comercializada. Sendo assim seria apenas necessário desenvolver a parte estética da aplicação de forma a ser atrativo para o público, bem como adicionar informação adicional para ser mais completa.</p>
+<h2 id="resumo">Resumo</h2>
+<p><em>Custos Protótipo:</em></p>
+<ul>
+<li>Arduino RP2040: 27€</li>
+<li>Sensor MAX30102: 8€</li>
+<li>Bateria de Lítio 500 mAh: 8€</li>
+<li>Módulo de Carregamento: 8€</li>
+<li>Raspberry Pi 5: 90€</li>
+</ul>
+<br>
+<br>
+<p><em>Custos Ideais:</em></p>
+<ul>
+<li>Processador personalizado: ~10€</li>
+<li>Sensor MAX30102: 8€</li>
+<li>Bateria de Litio 200 mAh: 3€</li>
+<li>Módulo de carregamento: 8€</li>
+<li>Router local (PCB): ~20€</li>
+</ul>
+<p>Esta estimativa é realizada de uma forma superficial e pouco estudada, não tem em conta possíveis parcerias com empresas, nem componentes feitos com este propósito, nem preços adaptados a compras em massa. No entanto, seria esta uma versão ideal da solução apresentada.</p>
+
+          </div>
+          
+        </div>
       </div>
       <div class="col-md-4">
-        <div class="project-details">
-          <h4>Activity Details</h4>
-          <ul>
-            
-          </ul>
-        </div>
+        <aside class="sidebar"><div class="widget widget-latest-post">
+    <h4 class="widget-title">Latest Posts</h4>
+    
+    <div class="media">
+      <a class="pull-left" href="/ist1103254/blog/produto_ideal/">
+        
+        <img class="media-object" src="/ist1103254/images/blog/beetleBLE.jpg" alt="Produto Ideal">
+        
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="/ist1103254/blog/produto_ideal/">Produto Ideal</a></h4>
+        <p>Produto Ideal No âmbito do Projeto Integrador de …</p>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <div class="project-content mt-50">
-          <p>Raspberry Pi 5</p>
+    
+    <div class="media">
+      <a class="pull-left" href="/ist1103254/blog/entrevistas-conclusoes/">
+        
+        <img class="media-object" src="/ist1103254/images/blog/guiao.jpg" alt="Conclusões das entrevistas presenciais">
+        
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="/ist1103254/blog/entrevistas-conclusoes/">Conclusões das entrevistas presenciais</a></h4>
+        <p>Conclusão das entrevistas realizadas a idosos …</p>
+      </div>
+    </div>
+    
+    <div class="media">
+      <a class="pull-left" href="/ist1103254/blog/processador_updated/">
+        
+        <img class="media-object" src="/ist1103254/images/blog/beetleBLE.jpg" alt="Processadores e sensores">
+        
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="/ist1103254/blog/processador_updated/">Processadores e sensores</a></h4>
+        <p>Processadores e Sensores Nas primeiras semanas de …</p>
+      </div>
+    </div>
+    
+    <div class="media">
+      <a class="pull-left" href="/ist1103254/blog/i2c/">
+        
+        <img class="media-object" src="/ist1103254/images/blog/i2c.jpg" alt="I2c">
+        
+      </a>
+      <div class="media-body">
+        <h4 class="media-heading"><a href="/ist1103254/blog/i2c/">I2c</a></h4>
+        <p>I2C O que é? É um protocolo de comunicação, neste …</p>
+      </div>
+    </div>
+    
+  </div>
+<div class="widget widget-category">
+  <h4 class="widget-title">Categories</h4>
+  <ul class="widget-category-list">
+    <li><a href="/ist1103254/categories/entrevistas/">Entrevistas</a></li>
+    <li><a href="/ist1103254/categories/prot%C3%B3tipo/">Protótipo</a></li>
+  </ul>
+</div>
+<div class="widget widget-tag">
+  <h4 class="widget-title">Tags</h4>
+  <ul class="widget-tag-list">
+    <li><a href="/ist1103254/tags/conclus%C3%B5es/">Conclusões</a></li>
+    <li><a href="/ist1103254/tags/gui%C3%A3o/">Guião</a></li>
+    <li><a href="/ist1103254/tags/pesquisa/">Pesquisa</a></li>
+    <li><a href="/ist1103254/tags/processador/">Processador</a></li>
+    <li><a href="/ist1103254/tags/sensores/">Sensores</a></li>
+    <li><a href="/ist1103254/tags/transcrito/">Transcrito</a></li>
+  </ul>
+</div>
+</aside>
 
-        </div>
       </div>
     </div>
   </div>
 </section>
+
+
+
+
 
 
 	</main>
