@@ -100,6 +100,15 @@ async def read_and_write_characteristic(address):
                     plt.legend(loc='upper right')
                     plt.pause(0.01)  # Pause briefly to update the plot
 
+                    # Send heart rate (bpm) to Firebase Realtime Database
+                    ref.push({
+                        'timestamp': timestamp,
+                        'bpm': bpm
+                    })
+                    print(f"Sent to Firebase Realtime Database: {timestamp}, {bpm}")
+
+                    
+                    
                     if but == 1:
                         await client.write_gatt_char(characteristic_uuid, b'sos')
                         print("Sent: SOS!!!")
@@ -108,6 +117,10 @@ async def read_and_write_characteristic(address):
                         print("Sent: False Positive")
 
                     await asyncio.sleep(1)
+                
+                
+                
+                    
         except (BleakError, EOFError) as e:
             print(f"Failed to connect or read data: {e}. Retrying in 5 seconds...")
             await asyncio.sleep(5)  # Wait for 5 seconds before retrying

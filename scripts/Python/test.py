@@ -30,10 +30,10 @@ if not os.path.exists(csv_directory):
     os.makedirs(csv_directory)
 
 # Firebase setup
-cred = credentials.Certificate('') 
+cred = credentials.Certificate('/Users/pedro/Downloads/pic24-cfe9a-firebase-adminsdk-mddbb-3a74be8200.json') 
 firebase_admin.initialize_app(cred, {
-    'databaseURL': '',  
-    'storageBucket': ''  
+    'databaseURL': 'https://pic24-cfe9a-default-rtdb.europe-west1.firebasedatabase.app/',  
+    'storageBucket': 'pic24-cfe9a.appspot.com'  
 })
 
 
@@ -114,7 +114,7 @@ async def generate_random_data():
                     elif but == 2:
                         print("Button pressed: False Positive")
 
-                    await asyncio.sleep(5)  
+                    await asyncio.sleep(1)  
 
                
                 await upload_csv_to_firebase(csv_file_path, current_csv_filename)
